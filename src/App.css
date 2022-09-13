@@ -26,15 +26,16 @@
 input {
   width: 80%;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 5px;
   border: none;
 }
 
 button {
   border: none;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 5px;
   margin: 0 5px;
+  width: 30%;
 }
 .allTodos {
   list-style: none;
@@ -53,3 +54,5 @@ button {
 .todoText {
   flex: 1;
 }
+
+

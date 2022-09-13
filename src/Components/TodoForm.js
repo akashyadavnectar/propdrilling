@@ -5,10 +5,11 @@ const TodoForm = ({ handleSubmit, todo, editId, setTodo }) => {
     <form className="todoForm" onSubmit={handleSubmit}>
       <input
         type="text"
+        placeholder="What to do?"
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
       />
-      <button type="submit"> {editId ? "Edit" : "Go"}</button>
+      <button type="submit"> {editId ? "Edit" : "New List"}</button>
     </form>
   );
 };
